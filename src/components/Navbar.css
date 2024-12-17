@@ -1,0 +1,27 @@
+.navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background-color: #343a40; /* Darker shade on hover */
+  }
+  
+  .navbar-nav {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Ensure it takes full width */
+  }
+  
+  .nav-link {
+    color: #ffffff; /* White text */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107; /* Gold color on hover */
+  }
+  
+  .logo {
+    width: 40px; /* Adjust logo size */
+    height: auto;
+  }
